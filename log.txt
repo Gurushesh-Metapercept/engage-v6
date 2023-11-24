@@ -1,0 +1,737 @@
+Searching for integrator.xml ...
+
+init:
+
+bootstrap.theme.init:
+
+dita2aurigohtml5.init:
+
+html5.init:
+
+init-properties:
+[init-project] Initializing project
+
+check-arg:
+   [delete] Deleting directory /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1
+     [echo] * dita.dir = /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1
+     [echo] * transtype = aurigohtml5
+     [echo] * tempdir = /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+     [echo] * outputdir = /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 3.6.1
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Fri Nov 24 11:51:07 GMT 2023
+     [echo] dita.plugin.org.dita.base.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base
+     [echo] dita.temp.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+     [echo] args.xsl=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/xsl/html5-bootstrap.xsl
+     [echo] args.html5.toc=index
+     [echo] args.grammar.cache=yes
+     [echo] dita.plugin.com.aurigo.ditasearch.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.xdita.v0_2_2
+     [echo] dita-bootstrap.css.add=yes
+     [echo] dita.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1
+     [echo] args.breadcrumbs=yes
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.axf
+     [echo] args.html5.toc.xsl=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/Customization/map2html5-cover.xsl
+     [echo] args.hdf=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/includes/bootstrap.hdf.xml
+     [echo] args.copycss=yes
+     [echo] args.csspath=css
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.lwdita.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.lwdita
+     [echo] args.cssroot=plugins/com.aurigo.html5/css/
+     [echo] args.hdr=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/includes/bs-navbar-default.hdr.xml
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.dita.htmlhelp.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.htmlhelp
+     [echo] dita.plugin.com.aurigo.pdf.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.pdf
+     [echo] dita.output.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5
+     [echo] dita.plugin.com.aurigo.html5.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.normalize.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.normalize
+     [echo] dita.plugin.org.dita.xhtml.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.xhtml
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.xep
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.fop
+     [echo] args.input=/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage_Online_Help.ditamap
+     [echo] args.css=custom.css
+     [echo] dita.plugin.org.dita.pdf2.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.html5.reloadstylesheet=false
+     [echo] dita.plugin.org.dita.html5.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.html5
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.dita.index.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.index
+     [echo] dita.plugin.fox.jason.extend.css.dir=/home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/fox.jason.extend.css
+     [echo] args.css.file=custom.css
+     [echo] dita.extname=dita
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = /home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage_Online_Help.ditamap
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage_Online_Help.ditamap
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Contact_Us.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Engage_Home.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Campaigning_for_Projects.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Closing_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Creating_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Deleting_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Downloading_a_QR_Code.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Publishing_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Public_Portal_Users.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Searching_a_Project.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Viewing_a_Project.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Campaign_Reports.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Application_Settings.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Categories.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/General_Settings.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Project_Fields.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Terms_of_Use_Settings.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Managing_a_Template.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Adding_Users.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Deleting_a_User.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Updating_User_Details_.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/User_Management.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Roles/User_Roles.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Previewing_a_Campaign.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Responding_to_Comments.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Adding_Form_Fields.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Deleting_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Project_Fields.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Campaigning_for_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Previewing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Managing_a_Template.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Creating_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Viewing_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Terms_of_Use_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Engage_Home.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Categories.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Publishing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Roles/User_Roles.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/Application_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Closing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Searching_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Application_Settings/General_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Public_Portal_Users/Public_Portal_Users.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Downloading_a_QR_Code.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Updating_User_Details_.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/User_Management.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Campaign_Reports.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Responding_to_Comments.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Contact_Us.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Adding_Users.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/User_Management/Deleting_a_User.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Viewing_Campaigns/Viewing_Campaigns.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Settings/Public_Portal_Settings/Public_Portal_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/source/0/Aurigo_Engage_Online_Help.ditamap to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/canditopics.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/conref.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/conreftargets.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/copytosource.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditamap.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditamapandtopic.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditatopic.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/hrefditatopic.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/hreftargets.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/html.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/image.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/outditafiles.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/resourceonly.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/resourceonly.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/subjectscheme.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/subtargets.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/user.input.file.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+
+mapref-check:
+
+mapref:
+   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+
+branch-filter:
+[branch-filter] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+
+copy-image:
+     [copy] Copying 36 files to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5
+
+bootstrap.scripts.popover:
+    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/js
+    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/images
+    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/pdf
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/js
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/js
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/js
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/pdf
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/images
+
+bootstrap.scripts.dark.mode:
+
+bootstrap.scripts.copy:
+
+extend.css.init:
+
+dita-bootstrap.css.copy:
+
+extend.css.copy:
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/css
+
+extend.css:
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files:
+
+keyref:
+   [mapref] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+   [mapref] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+
+copy-to:
+
+conrefpush:
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/conref.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+
+conref-check:
+
+conref:
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditatopic.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditamap.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/fullditamapandtopic.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/resourceonly.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+[job-helper] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/.job.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/copytosource.list
+[job-helper] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/job-helper.xsl
+
+move-meta-entries:
+[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+[move-meta] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mappull.xsl
+[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+
+maplink-check:
+
+maplink:
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+[topicpull] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+
+clean-map-check:
+
+clean-map:
+[clean-map] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+[clean-map] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap
+
+ditasearch-init:
+
+ditasearch-searchindex:
+
+ditasearch-genlist:
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.nosearch
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/gen-nosearch-list.xsl
+
+ditasearch-configfile:
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/default-configs.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/searchconfigs.xml
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/init_searchconfigs.xsl
+     [xslt] <?level INFO?>[DS05][INFO]: Using only default search configuration file. 
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.idx
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/stemmer.xsl
+     [xslt] /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/porter2.xsl:180: Warning! A function that computes atomic values should use xsl:sequence rather than xsl:value-of
+     [xslt] /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/porter2.xsl:185: Warning! A function that computes atomic values should use xsl:sequence rather than xsl:value-of
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.idx
+     [xslt] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/ditasearch.xml to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/ditasearch.js
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/index2js.xsl
+     [xslt] /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/porter2.xsl:180: Warning! A function that computes atomic values should use xsl:sequence rather than xsl:value-of
+     [xslt] /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.ditasearch/xsl/porter2.xsl:185: Warning! A function that computes atomic values should use xsl:sequence rather than xsl:value-of
+
+ditasearch:
+
+preprocess:
+
+html5.topic.init:
+
+html5.image-metadata:
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Edit_Icon.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Delete_Icon.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Three_Dots_Icon.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Add_New_Project.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Upload_File.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Add_Icon.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Download_Icon.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Add_Icon_2.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Sign_Out.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Delete_Icon_2.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Choose_your_plan_window.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Preview_Publish.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Public_Portal.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Cancel_Subscription_Dialog_Box.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Engage_Home_Page.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Profile_menu.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Notification_List.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Filter_Option.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Sort_By.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Share_Icon.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Print_Icon.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Promote.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/Copy_Icon.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Icons/QR_Icon.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/LinkedIn_Post.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Twitter_Post.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Facebook_Post.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Subscription_Details_Page.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Contact_Us.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Down_Arrow.jpg
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Screenshots/Transaction_History.jpg
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita
+
+html5.topics.common:
+
+html5.topics.common.inner:
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/xsl/html5-bootstrap.xsl
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Form_Fields.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Public_Portal_Settings/Adding_Form_Fields.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Withdrawing_a_Campaign_.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Withdrawing_a_Campaign_.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Managing_Projects_in_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Deleting_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Deleting_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Project_Fields.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Application_Settings/Project_Fields.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Copying_the_Public_Portal_URL.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Copying_the_Public_Portal_URL.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Campaigning_for_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Campaigning_for_Projects.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Previewing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Previewing_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Viewing_Analytics_for_Campaigns_and_Projects.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Managing_a_Template.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Public_Portal_Settings/Managing_a_Template.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Creating_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Creating_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Public_Portal_Users/Viewing_a_Project.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Modifying_User_Preferences.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Logging_Out_of_Aurigo_Engage.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_Reports.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Generating_Reports/Generating_Reports.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Terms_of_Use_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Application_Settings/Terms_of_Use_Settings.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Engage_Home.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Engage_Home.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Categories.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Application_Settings/Categories.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Managing_Your_Plan.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Managing_Your_Plan.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Changing_Password.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Analyzing_a_Campaign/Viewing_Promotional_Details.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Public_Portal_Users/Viewing_and_Downloading_Reference_Documents.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Publishing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Publishing_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Projects.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Roles/User_Roles.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/User_Roles/User_Roles.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/Application_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Application_Settings/Application_Settings.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Viewing_Campaigns_in_Completed_Status.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Closing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Closing_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Canceling_the_Subscription.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Searching_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Public_Portal_Users/Searching_a_Project.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_User_Interface.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Introduction/Introduction_to_User_Interface.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Application_Settings/General_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Application_Settings/General_Settings.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Public_Portal_Users/Rating_and_Sharing_Comments_for_a_Project.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Introduction/Introduction_to_Aurigo_Engage.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Public_Portal_Users/Public_Portal_Users.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Public_Portal_Users/Public_Portal_Users.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Downloading_a_QR_Code.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Downloading_a_QR_Code.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Updating_User_Details_.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/User_Management/Updating_User_Details_.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Campaigning_for_Projects/Posting_a_Campaign_on_Social_Media.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Public_Portal_Settings/Adding_Layouts_and_Fonts.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Viewing_the_Subscription_Details.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/User_Management.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/User_Management/User_Management.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Campaign_Reports.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Campaign_Reports.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Viewing_Campaigns_in_Draft_Status.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Viewing_Campaigns_in_Accepting_Comments_Status.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Responding_to_Comments.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Responding_to_Comments.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Generating_Reports/Saving_a_Report.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Contact_Us.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Contact_Us.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Modifying_User_Preferences/Retrieving_Password.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Adding_Users.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/User_Management/Adding_Users.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Aurigo_Engage/Getting_Started/Viewing_the_Transaction_History.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/User_Management/Deleting_a_User.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/User_Management/Deleting_a_User.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Viewing_Campaigns/Viewing_Campaigns.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Viewing_Campaigns/Viewing_Campaigns.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Generating_Reports/Generating_a_Report.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Settings/Public_Portal_Settings/Public_Portal_Settings.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Settings/Public_Portal_Settings/Public_Portal_Settings.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Generating_Reports/Printing_a_Report.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.dita to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/Reports_and_Dashboards/Analyzing_a_Campaign/Analyzing_a_Campaign_by_Comments.html
+
+html5.topic:
+
+html5.map.init:
+
+html5.map.toc:
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2457586985733306491/dita-ot/dita-ot-3.6.1/plugins/com.aurigo.html5/Customization/map2html5-cover.xsl
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-temp7714582961067421953/Aurigo_Engage_Online_Help.ditamap to file:/home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/index.html
+
+html5.map:
+
+html5.css:
+     [copy] Copying 2 files to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/css
+
+html5.copy-css-user:
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2457586985733306491/ot-output/aurigohtml5/css
+
+dita2html5:
+
+dita2aurigohtml5:
+
+clean-temp:
