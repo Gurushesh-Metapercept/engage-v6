@@ -2341,10 +2341,10 @@ figcaption > .fig--title-label {
 }
 
 .uicontrol,
-.table td {
+.table td,
+.table {
   word-break: break-word;
 }
-
 .itemgroup.info > div.p > ul,
 td > ol > li > ul,
 .bigNote ul,
